@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ColorPicker</string>
+    <string name="tvText">Text</string>
+    <string name="tvName">Name</string>
+</resources>
