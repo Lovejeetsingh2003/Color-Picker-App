@@ -2,4 +2,15 @@
     <string name="app_name">ColorPicker</string>
     <string name="tvText">Text</string>
     <string name="tvName">Name</string>
+    <string name="tvColor1">First Color:</string>
+    <string name="tvColor2">Second Color:</string>
+    <string name="tvCount">Count:</string>
+    <string name="etCount">Enter a Number:</string>
+    <string name="btnSave">Save</string>
+    <string name="tvSelectColor">Select Color</string>
+    <string name="color1">Color 1</string>
+    <string name="color2">Color 2</string>
+    <string name="enter_number">Enter number</string>
+    <string name="save">Save</string>
+    <string name="btnClear">Clear</string>
 </resources>
