@@ -46,6 +46,15 @@ class MainActivity : AppCompatActivity() {
         recyclerview.updateValues(number, colorCode1, colorCode2)
         binding.rvList.adapter = recyclerview
         binding.rvList.layoutManager = LinearLayoutManager(this)
+        binding.btnClear.setOnClickListener {
+
+            Singlton.sharedPrefsClass.clear()
+            colorCode1 = Singlton.sharedPrefsClass.getString("color1")
+            colorCode2 = Singlton.sharedPrefsClass.getString("color2")
+            number = Singlton.sharedPrefsClass.getInt("number")
+            recyclerview.updateValues(number, colorCode1, colorCode2)
+
+        }
         binding.colorPicker.setOnClickListener {
             var dialog = Dialog(this@MainActivity)
             var dialogBinding = CoustomDialogBinding.inflate(layoutInflater)
